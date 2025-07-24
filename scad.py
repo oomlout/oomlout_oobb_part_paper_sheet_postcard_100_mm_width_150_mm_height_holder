@@ -120,9 +120,9 @@ def make_scad(**kwargs):
         
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
-        #p3["thickness"] = 6
+        p3["width"] = 2.5
+        p3["height"] = 1.5
+        p3["thickness"] = 9
         #p3["extra"] = ""
         part["kwargs"] = p3
         nam = "base"
@@ -131,7 +131,7 @@ def make_scad(**kwargs):
             p3["oomp_size"] = nam
         if not test:
             pass
-            #parts.append(part)
+            parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -181,7 +181,53 @@ def get_base(thing, **kwargs):
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
-    oobb_base.append_full(thing,**p3)
+    #oobb_base.append_full(thing,**p3)
+
+    depth_lip = 1.5
+    clearance = 3
+
+    #add postcard
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_cube"
+        wid = 150 + clearance
+        hei = 100
+        dep = depth- depth_lip
+        size = [wid, hei, dep]
+        p3["size"] = size
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0 + wid/2 - 12.75
+        pos1[1] += 0 + hei/2 + 1.25
+        pos1[2] += depth_lip
+        p3["pos"] = pos1 
+        p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+    #add screw countersunk radius name m3
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_screw_countersunk"
+        p3["radius_name"] = "m3"
+        p3["depth"] = depth
+        pos1 = copy.deepcopy(pos)
+        pos1[1] += -3.75
+        poss = []
+        pos11 = copy.deepcopy(pos1)
+        pos11[0] += -3.75
+        poss.append(pos11)
+        pos12 = copy.deepcopy(pos1)
+        pos12[0] += 11.25
+        poss.append(pos12)
+        p3["pos"] = poss
+        rot1 = copy.deepcopy(rot)
+        rot1[0] = 180
+        p3["rot"] = rot1
+        p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+
 
     if prepare_print:
         #put into a rotation object
