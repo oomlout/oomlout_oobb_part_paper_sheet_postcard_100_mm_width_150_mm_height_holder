@@ -1,0 +1,730 @@
+classification: project
+color: oomlout_oobb_part_paper_sheet_postcard_1
+description_extra: ''
+description_main: left_side_3_5_width_1_5_height_9_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_part_paper_sheet_postcard_1_left_side_3_5_width_1_5_height_9_mm_depth
+id_oobb: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_left_side_3_5_width_1_5_height_9_mm_depth
+kwargs:
+  filter: ''
+  height: 1.5
+  modes:
+  - 3dpr
+  navigation: true
+  oomp_classification: project
+  oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
+  oomp_description_extra: ''
+  oomp_description_main: left_side_3_5_width_1_5_height_9_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: true
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 9
+  typ: all
+  type: oomlout_oobb_part_paper_sheet_postcard_1_left_side
+  width: 3.5
+manufacturer: ''
+name: left_side
+part_number: ''
+project_name: C:\gh\oomlout_oobb_part_paper_sheet_postcard_100_mm_width_150_mm_height_holder
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 9
+      height: 1.5
+      pos:
+      - 7.5
+      - 0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 51.5
+      - 21.5
+      - 9
+      type: positive
+      width: 3.5
+  - - - height: 1.5
+        m: '#'
+        pos:
+        - -14.25
+        - 1.25
+        - 1.5
+        shape: cube
+        size:
+        - 156
+        - 100
+        - 7.5
+        type: negative
+        width: 3.5
+  - - objects:
+      - - depth: 9
+          h: 1.7
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos: &id001
+          - 0
+          - 0
+          - -9.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos: *id001
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos: *id001
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 1.9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos: &id002
+          - 0
+          - 0
+          - -9.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos: *id002
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos: *id002
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 1.7
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos: &id003
+          - 0
+          - 0
+          - -9.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos: *id003
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos: *id003
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+      pos:
+      - -3.75
+      - -3.75
+      - 0
+      rot:
+      - 180
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 9
+          h: 1.7
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos: &id004
+          - 0
+          - 0
+          - -9.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos: *id004
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos: *id004
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 1.9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos: &id005
+          - 0
+          - 0
+          - -9.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos: *id005
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos: *id005
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 1.7
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos: &id006
+          - 0
+          - 0
+          - -9.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos: *id006
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos: *id006
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+      pos:
+      - 11.25
+      - -3.75
+      - 0
+      rot:
+      - 180
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 9
+          h: 1.7
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos: &id007
+          - 0
+          - 0
+          - -9.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos: *id007
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos: *id007
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 1.9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos: &id008
+          - 0
+          - 0
+          - -9.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos: *id008
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos: *id008
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 1.7
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 3.5
+      - - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: laser
+          m: '#'
+          pos: &id009
+          - 0
+          - 0
+          - -9.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 3dpr
+          m: '#'
+          pos: *id009
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+        - depth: 9
+          h: 9
+          height: 1.5
+          inclusion: 'true'
+          m: '#'
+          pos: *id009
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3.5
+      pos:
+      - 26.25
+      - -3.75
+      - 0
+      rot:
+      - 180
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  components_objects:
+  - depth: 9
+    filter: ''
+    height: 1.5
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 7.5
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_plate
+    thickness: 9
+    typ: all
+    type: positive
+    width: 3.5
+  - filter: ''
+    height: 1.5
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 63.75
+    - 51.25
+    - 1.5
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 156
+    - 100
+    - 7.5
+    thickness: 9
+    typ: all
+    type: negative
+    width: 3.5
+  - depth: 9
+    filter: ''
+    height: 1.5
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -3.75
+    - -3.75
+    - 0
+    radius_name: m3
+    rot:
+    - 180
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 9
+    typ: all
+    type: negative
+    width: 3.5
+  - depth: 9
+    filter: ''
+    height: 1.5
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 11.25
+    - -3.75
+    - 0
+    radius_name: m3
+    rot:
+    - 180
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 9
+    typ: all
+    type: negative
+    width: 3.5
+  - depth: 9
+    filter: ''
+    height: 1.5
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 26.25
+    - -3.75
+    - 0
+    radius_name: m3
+    rot:
+    - 180
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 9
+    typ: all
+    type: negative
+    width: 3.5
+  components_string:
+  - oobb_plate_shape_positive_type_9_depth_7.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color
+  - oobb_cube_shape_negative_type_63.75_51.25_1.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_156_100_7.5_size
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_-3.75_-3.75_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_11.25_-3.75_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_26.25_-3.75_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
+  description: oomlout oobb part paper sheet postcard 1 left side 3.5x1.5x9
+  description_extra: ''
+  description_main: 3_5_width_1_5_height_9_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_left_side_3_5_width_1_5_height_9_mm_depth
+  height: 1.5
+  height_mm: 21.5
+  id: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_left_side_3_5_width_1_5_height_9_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_part_paper_sheet_postcard_1_left_side/3_5_width_1_5_height_9_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_part_paper_sheet_postcard_1_left_side_3d5_1d5_09
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Part Paper Sheet Postcard 1 Left Side 3 5 Width 1 5
+    Height 9 mm Depth
+  name_short: Oomlout Paper Sheet Postcard 1 Left
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_part_paper_sheet_postcard_1_left_side
+  thickness: 9
+  thickness_mm: 9
+  type: part
+  width: 3.5
+  width_mm: 51.5
+type: github

@@ -124,20 +124,24 @@ def make_scad(**kwargs):
 
         dep = 9
 
-        part = copy.deepcopy(part_default)
-        p3 = copy.deepcopy(kwargs)
-        p3["width"] = 2.5
-        p3["height"] = 1.5
-        p3["thickness"] = dep
-        #p3["extra"] = ""
-        part["kwargs"] = p3
-        nam = "left_side"
-        part["name"] = nam
-        if oomp_mode == "oobb":
-            p3["oomp_size"] = nam
-        if not test:
-            pass
-            parts.append(part)
+        widths = [2.5,3.5]
+
+        for wid in widths:
+
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3["width"] = wid
+            p3["height"] = 1.5
+            p3["thickness"] = dep
+            #p3["extra"] = ""
+            part["kwargs"] = p3
+            nam = "left_side"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            if not test:
+                pass
+                parts.append(part)
 
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
@@ -296,7 +300,9 @@ def get_left_side(thing, **kwargs):
     p3["depth"] = depth
     #p3["holes"] = True         uncomment to include default holes
     #p3["m"] = "#"
-    pos1 = copy.deepcopy(pos)         
+    pos1 = copy.deepcopy(pos)   
+    shift_x = (width - 2.5) / 2 * 15
+    pos1[0] += shift_x      
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
     
@@ -349,6 +355,9 @@ def get_left_side(thing, **kwargs):
         pos12 = copy.deepcopy(pos1)
         pos12[0] += 11.25
         poss.append(pos12)
+        pos13 = copy.deepcopy(pos1)
+        pos13[0] += 26.25
+        poss.append(pos13)
         p3["pos"] = poss
         rot1 = copy.deepcopy(rot)
         rot1[0] = 180
