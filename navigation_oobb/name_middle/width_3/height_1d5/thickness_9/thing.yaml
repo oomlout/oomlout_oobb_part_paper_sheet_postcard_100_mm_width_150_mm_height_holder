@@ -1,7 +1,7 @@
 classification: project
 color: oomlout_oobb_part_paper_sheet_postcard_1
 description_extra: ''
-description_main: left_side_2_5_width_1_5_height_9_mm_depth
+description_main: middle_3_width_1_5_height_9_mm_depth
 full_rotations:
 - 0
 - 0
@@ -10,30 +10,31 @@ full_shift:
 - 0
 - 0
 - 0
-id: project_github_oomlout_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2_5_width_1_5_height_9_mm_depth
-id_oobb: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2_5_width_1_5_height_9_mm_depth
+id: project_github_oomlout_oomlout_oobb_part_paper_sheet_postcard_1_middle_3_width_1_5_height_9_mm_depth
+id_oobb: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_middle_3_width_1_5_height_9_mm_depth
 kwargs:
   filter: ''
   height: 1.5
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
   oomp_description_extra: ''
-  oomp_description_main: left_side_2_5_width_1_5_height_9_mm_depth
+  oomp_description_main: middle_3_width_1_5_height_9_mm_depth
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   thickness: 9
-  type: oomlout_oobb_part_paper_sheet_postcard_1_left_side
-  width: 2.5
+  typ: all
+  type: oomlout_oobb_part_paper_sheet_postcard_1_middle
+  width: 3
 manufacturer: ''
-name: left_side
+name: middle
 part_number: ''
 project_name: C:\gh\oomlout_oobb_part_paper_sheet_postcard_100_mm_width_150_mm_height_holder
 size: oomlout
@@ -49,15 +50,15 @@ thing:
       - 0
       shape: rounded_rectangle
       size:
-      - 36.5
+      - 44
       - 21.5
       - 9
       type: positive
-      width: 2.5
+      width: 3
   - - - height: 1.5
         m: '#'
         pos:
-        - -14.25
+        - -160.5
         - 1.25
         - 1.5
         shape: cube
@@ -66,7 +67,20 @@ thing:
         - 100
         - 7.5
         type: negative
-        width: 2.5
+        width: 3
+  - - - height: 1.5
+        m: '#'
+        pos:
+        - 4.5
+        - 1.25
+        - 1.5
+        shape: cube
+        size:
+        - 156
+        - 100
+        - 7.5
+        type: negative
+        width: 3
   - - objects:
       - - depth: 9
           h: 1.7
@@ -81,7 +95,7 @@ thing:
           r2: 2.4
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 9
           height: 1.5
@@ -95,7 +109,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -105,7 +119,7 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -116,7 +130,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 1.9
           height: 1.5
@@ -130,7 +144,7 @@ thing:
           r2: 3.6
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 9
           height: 1.5
@@ -144,7 +158,7 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -154,7 +168,7 @@ thing:
           r: 1.8
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -165,7 +179,7 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 1.7
           height: 1.5
@@ -179,7 +193,7 @@ thing:
           r2: 2.9
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 9
           height: 1.5
@@ -193,7 +207,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -203,7 +217,7 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -214,9 +228,9 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       pos:
-      - -3.75
+      - -15
       - -3.75
       - 0
       rot:
@@ -239,7 +253,7 @@ thing:
           r2: 2.4
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 9
           height: 1.5
@@ -253,7 +267,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -263,7 +277,7 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -274,7 +288,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 1.9
           height: 1.5
@@ -288,7 +302,7 @@ thing:
           r2: 3.6
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 9
           height: 1.5
@@ -302,7 +316,7 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -312,7 +326,7 @@ thing:
           r: 1.8
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -323,7 +337,7 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 1.7
           height: 1.5
@@ -337,7 +351,7 @@ thing:
           r2: 2.9
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       - - depth: 9
           h: 9
           height: 1.5
@@ -351,7 +365,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -361,7 +375,7 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
         - depth: 9
           h: 9
           height: 1.5
@@ -372,9 +386,9 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 2.5
+          width: 3
       pos:
-      - 11.25
+      - 15
       - -3.75
       - 0
       rot:
@@ -389,7 +403,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
     oomp_description_extra: ''
@@ -397,7 +411,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -405,17 +419,18 @@ thing:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 9
+    typ: all
     type: positive
-    width: 2.5
+    width: 3
   - filter: ''
     height: 1.5
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
     oomp_description_extra: ''
@@ -423,30 +438,30 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
     pos:
-    - 63.75
+    - -82.5
     - 51.25
     - 1.5
-    save_type: none
+    save_type: all
     shape: oobb_cube
     size:
     - 156
     - 100
     - 7.5
     thickness: 9
+    typ: all
     type: negative
-    width: 2.5
-  - depth: 9
-    filter: ''
+    width: 3
+  - filter: ''
     height: 1.5
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
     oomp_description_extra: ''
@@ -454,31 +469,31 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
     pos:
-    - -3.75
-    - -3.75
-    - 0
-    radius_name: m3
-    rot:
-    - 180
-    - 0
-    - 0
-    save_type: none
-    shape: oobb_screw_countersunk
+    - 82.5
+    - 51.25
+    - 1.5
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 156
+    - 100
+    - 7.5
     thickness: 9
+    typ: all
     type: negative
-    width: 2.5
+    width: 3
   - depth: 9
     filter: ''
     height: 1.5
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
     oomp_description_extra: ''
@@ -486,12 +501,12 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
     pos:
-    - 11.25
+    - -15
     - -3.75
     - 0
     radius_name: m3
@@ -499,35 +514,70 @@ thing:
     - 180
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 9
+    typ: all
     type: negative
-    width: 2.5
+    width: 3
+  - depth: 9
+    filter: ''
+    height: 1.5
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: true
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15
+    - -3.75
+    - 0
+    radius_name: m3
+    rot:
+    - 180
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 9
+    typ: all
+    type: negative
+    width: 3
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color
-  - oobb_cube_shape_negative_type_63.75_51.25_1.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_156_100_7.5_size
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_-3.75_-3.75_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_11.25_-3.75_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
-  description: oomlout oobb part paper sheet postcard 1 left side 2.5x1.5x9
+  - oobb_plate_shape_positive_type_9_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color
+  - oobb_cube_shape_negative_type_-82.5_51.25_1.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_156_100_7.5_size
+  - oobb_cube_shape_negative_type_82.5_51.25_1.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_156_100_7.5_size
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_-15_-3.75_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_15_-3.75_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
+  description: oomlout oobb part paper sheet postcard 1 middle 3x1.5x9
   description_extra: ''
-  description_main: 2_5_width_1_5_height_9_mm_depth
-  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2_5_width_1_5_height_9_mm_depth
+  description_main: 3_width_1_5_height_9_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_middle_3_width_1_5_height_9_mm_depth
   height: 1.5
   height_mm: 21.5
-  id: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2_5_width_1_5_height_9_mm_depth
-  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_part_paper_sheet_postcard_1_left_side/2_5_width_1_5_height_9_mm_depth/part
-  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2d5_1d5_09
+  id: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_middle_3_width_1_5_height_9_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_part_paper_sheet_postcard_1_middle/3_width_1_5_height_9_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_part_paper_sheet_postcard_1_middle_03_1d5_09
   manufacturer: ''
-  name: Oobb Part Oomlout Oobb Part Paper Sheet Postcard 1 Left Side 2 5 Width 1 5
-    Height 9 mm Depth
-  name_short: Oomlout Paper Sheet Postcard 1 Left
+  name: Oobb Part Oomlout Oobb Part Paper Sheet Postcard 1 Middle 3 Width 1 5 Height
+    9 mm Depth
+  name_short: Oomlout Paper Sheet Postcard 1 Middle
   part_number: ''
   short_name: ''
-  size: oomlout_oobb_part_paper_sheet_postcard_1_left_side
+  size: oomlout_oobb_part_paper_sheet_postcard_1_middle
   thickness: 9
   thickness_mm: 9
   type: part
-  width: 2.5
-  width_mm: 36.5
+  width: 3
+  width_mm: 44
 type: github

@@ -3,3 +3,5 @@
     * [oomlout_oobb_part_paper_sheet_postcard_1](github/oomlout/oomlout_oobb_part_paper_sheet_postcard_1)
       * [base_2_5_width_1_5_height_9_mm_depth](github/oomlout/oomlout_oobb_part_paper_sheet_postcard_1/base_2_5_width_1_5_height_9_mm_depth)
       * [left_side_2_5_width_1_5_height_9_mm_depth](github/oomlout/oomlout_oobb_part_paper_sheet_postcard_1/left_side_2_5_width_1_5_height_9_mm_depth)
+      * [middle_2_5_width_1_5_height_9_mm_depth](github/oomlout/oomlout_oobb_part_paper_sheet_postcard_1/middle_2_5_width_1_5_height_9_mm_depth)
+      * [middle_3_width_1_5_height_9_mm_depth](github/oomlout/oomlout_oobb_part_paper_sheet_postcard_1/middle_3_width_1_5_height_9_mm_depth)
