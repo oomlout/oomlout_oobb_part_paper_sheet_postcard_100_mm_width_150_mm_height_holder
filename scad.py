@@ -124,7 +124,7 @@ def make_scad(**kwargs):
 
         dep = 9
 
-        widths = [2.5,3.5]
+        widths = [2.5,3.5,4.5]
 
         for wid in widths:
 
