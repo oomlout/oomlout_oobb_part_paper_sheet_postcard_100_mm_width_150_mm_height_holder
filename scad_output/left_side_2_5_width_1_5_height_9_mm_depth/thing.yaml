@@ -1,7 +1,7 @@
 classification: project
 color: oomlout_oobb_part_paper_sheet_postcard_1
 description_extra: ''
-description_main: base_2_5_width_1_5_height_9_mm_depth
+description_main: left_side_2_5_width_1_5_height_9_mm_depth
 full_rotations:
 - 0
 - 0
@@ -10,31 +10,30 @@ full_shift:
 - 0
 - 0
 - 0
-id: project_github_oomlout_oomlout_oobb_part_paper_sheet_postcard_1_base_2_5_width_1_5_height_9_mm_depth
-id_oobb: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_base_2_5_width_1_5_height_9_mm_depth
+id: project_github_oomlout_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2_5_width_1_5_height_9_mm_depth
+id_oobb: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2_5_width_1_5_height_9_mm_depth
 kwargs:
   filter: ''
   height: 1.5
   modes:
   - 3dpr
-  navigation: true
+  navigation: false
   oomp_classification: project
   oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
   oomp_description_extra: ''
-  oomp_description_main: base_2_5_width_1_5_height_9_mm_depth
+  oomp_description_main: left_side_2_5_width_1_5_height_9_mm_depth
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: true
+  oomp_run: false
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   thickness: 9
-  typ: all
-  type: oomlout_oobb_part_paper_sheet_postcard_1_base
+  type: oomlout_oobb_part_paper_sheet_postcard_1_left_side
   width: 2.5
 manufacturer: ''
-name: base
+name: left_side
 part_number: ''
 project_name: C:\gh\oomlout_oobb_part_paper_sheet_postcard_100_mm_width_150_mm_height_holder
 size: oomlout
@@ -58,7 +57,7 @@ thing:
   - - - height: 1.5
         m: '#'
         pos:
-        - -12.75
+        - -14.25
         - 1.25
         - 1.5
         shape: cube
@@ -390,7 +389,7 @@ thing:
     height: 1.5
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
     oomp_description_extra: ''
@@ -398,7 +397,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -406,10 +405,9 @@ thing:
     - 0
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_plate
     thickness: 9
-    typ: all
     type: positive
     width: 2.5
   - filter: ''
@@ -417,7 +415,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
     oomp_description_extra: ''
@@ -425,22 +423,21 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
     pos:
-    - 63.75
+    - 62.25
     - 51.25
     - 1.5
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 153
     - 100
     - 7.5
     thickness: 9
-    typ: all
     type: negative
     width: 2.5
   - depth: 9
@@ -449,7 +446,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
     oomp_description_extra: ''
@@ -457,7 +454,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -470,10 +467,9 @@ thing:
     - 180
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     thickness: 9
-    typ: all
     type: negative
     width: 2.5
   - depth: 9
@@ -482,7 +478,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_oobb_part_paper_sheet_postcard_1
     oomp_description_extra: ''
@@ -490,7 +486,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -503,33 +499,32 @@ thing:
     - 180
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     thickness: 9
-    typ: all
     type: negative
     width: 2.5
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color
-  - oobb_cube_shape_negative_type_63.75_51.25_1.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_153_100_7.5_size
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_-3.75_-3.75_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_11.25_-3.75_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
-  description: oomlout oobb part paper sheet postcard 1 base 2.5x1.5x9
+  - oobb_plate_shape_positive_type_9_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color
+  - oobb_cube_shape_negative_type_62.25_51.25_1.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_153_100_7.5_size
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_-3.75_-3.75_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_11.25_-3.75_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2.5_width_1.5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_paper_sheet_postcard_1_oomp_color_180_0_0_rot
+  description: oomlout oobb part paper sheet postcard 1 left side 2.5x1.5x9
   description_extra: ''
   description_main: 2_5_width_1_5_height_9_mm_depth
-  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_base_2_5_width_1_5_height_9_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2_5_width_1_5_height_9_mm_depth
   height: 1.5
   height_mm: 21.5
-  id: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_base_2_5_width_1_5_height_9_mm_depth
-  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_part_paper_sheet_postcard_1_base/2_5_width_1_5_height_9_mm_depth/part
-  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_part_paper_sheet_postcard_1_base_2d5_1d5_09
+  id: oobb_part_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2_5_width_1_5_height_9_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_part_paper_sheet_postcard_1_left_side/2_5_width_1_5_height_9_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_part_paper_sheet_postcard_1_left_side_2d5_1d5_09
   manufacturer: ''
-  name: Oobb Part Oomlout Oobb Part Paper Sheet Postcard 1 Base 2 5 Width 1 5 Height
-    9 mm Depth
-  name_short: Oomlout Paper Sheet Postcard 1 Base 2
+  name: Oobb Part Oomlout Oobb Part Paper Sheet Postcard 1 Left Side 2 5 Width 1 5
+    Height 9 mm Depth
+  name_short: Oomlout Paper Sheet Postcard 1 Left
   part_number: ''
   short_name: ''
-  size: oomlout_oobb_part_paper_sheet_postcard_1_base
+  size: oomlout_oobb_part_paper_sheet_postcard_1_left_side
   thickness: 9
   thickness_mm: 9
   type: part
