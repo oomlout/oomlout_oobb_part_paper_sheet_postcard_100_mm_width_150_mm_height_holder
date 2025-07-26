@@ -118,30 +118,31 @@ def make_scad(**kwargs):
         part_default["full_shift"] = [0, 0, 0]
         part_default["full_rotations"] = [0, 0, 0]
         
-        names = []        
-        names.append("left_side")
-        names.append("middle")
 
         dep = 9
 
         widths = [2.5,3.5,4.5]
 
-        for wid in widths:
+        names = []
+        names.append("left_side")
+        names.append("left_side_portrait")
 
-            part = copy.deepcopy(part_default)
-            p3 = copy.deepcopy(kwargs)
-            p3["width"] = wid
-            p3["height"] = 1.5
-            p3["thickness"] = dep
-            #p3["extra"] = ""
-            part["kwargs"] = p3
-            nam = "left_side"
-            part["name"] = nam
-            if oomp_mode == "oobb":
-                p3["oomp_size"] = nam
-            if not test:
-                pass
-                parts.append(part)
+        for wid in widths:
+            for nam in names:
+                part = copy.deepcopy(part_default)
+                p3 = copy.deepcopy(kwargs)
+                p3["width"] = wid
+                p3["height"] = 1.5
+                p3["thickness"] = dep
+                #p3["extra"] = ""
+                part["kwargs"] = p3
+                #nam = "left_side"
+                part["name"] = nam
+                if oomp_mode == "oobb":
+                    p3["oomp_size"] = nam
+                if not test:
+                    pass
+                    parts.append(part)
 
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
@@ -358,6 +359,123 @@ def get_left_side(thing, **kwargs):
         pos13 = copy.deepcopy(pos1)
         pos13[0] += 26.25
         poss.append(pos13)
+        pos14 = copy.deepcopy(pos1)
+        pos14[0] += 26.25+15
+        poss.append(pos14)
+        p3["pos"] = poss
+        rot1 = copy.deepcopy(rot)
+        rot1[0] = 180
+        p3["rot"] = rot1
+        p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+
+
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 50
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += -500/2
+        pos1[1] += 0
+        pos1[2] += -500/2        
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+def get_left_side_portrait(thing, **kwargs):
+
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    
+    #add plate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "positive"
+    p3["shape"] = f"oobb_plate"    
+    p3["depth"] = depth
+    #p3["holes"] = True         uncomment to include default holes
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)   
+    shift_x = (width - 2.5) / 2 * 15
+    pos1[0] += shift_x      
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+    
+    #add holes seperate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_holes"
+    p3["both_holes"] = True  
+    p3["depth"] = depth
+    p3["holes"] = "perimeter"
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    #oobb_base.append_full(thing,**p3)
+
+    depth_lip = 1.5
+    clearance = 3
+
+    #add postcard
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_cube"
+        hei = 152.4 + clearance
+        wid = 101.6
+        dep = depth- depth_lip
+        size = [wid, hei, dep]
+        p3["size"] = size
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0 + wid/2 - 15.5
+        pos1[1] += 0 + hei/2 + 1.25
+        pos1[2] += depth_lip
+        p3["pos"] = pos1 
+        p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+    #add screw countersunk radius name m3
+    if True:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_screw_countersunk"
+        p3["radius_name"] = "m3"
+        p3["depth"] = depth
+        pos1 = copy.deepcopy(pos)
+        pos1[1] += -3.75
+        poss = []
+        pos11 = copy.deepcopy(pos1)
+        pos11[0] += -3.75
+        poss.append(pos11)
+        pos12 = copy.deepcopy(pos1)
+        pos12[0] += 11.25
+        poss.append(pos12)
+        pos13 = copy.deepcopy(pos1)
+        pos13[0] += 26.25
+        poss.append(pos13)
+        pos14 = copy.deepcopy(pos1)
+        pos14[0] += 26.25+15
+        poss.append(pos14)
         p3["pos"] = poss
         rot1 = copy.deepcopy(rot)
         rot1[0] = 180
